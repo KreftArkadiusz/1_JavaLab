@@ -25,6 +25,8 @@ public class Main {
             char testchar = 'x';
             System.out.println("Zmnienna char = "+testchar);
 
+            System.out.println("\n");
+
         /*
         *    zad.2 Napisz kod który będzie wykonywał operacje: dodawania, odejmowania,
         *    mnożenia, dziealenia i modulo na zmiennych:
@@ -32,6 +34,25 @@ public class Main {
         *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
         *  */
 
+            int testint1 = 14, testint2 = 52;
+
+            //na intach
+
+            System.out.println("Wyniki działań wykonywanych na intach: ");
+
+            System.out.println(testint1+testint2);
+            System.out.println(testint1-testint2);
+            System.out.println(testint1*testint2);
+            System.out.println(testint1/testint2);
+
+            double testdouble1 = 13.6, testdouble2 = 5.1;
+
+            System.out.println("Wyniki działań wykonywanych na doublach: ");
+
+            System.out.println(testdouble1+testdouble2);
+            System.out.println(testdouble1-testdouble2);
+            System.out.println(testdouble1*testdouble2);
+            System.out.println(testdouble1/testdouble2);
 
     }
 }
